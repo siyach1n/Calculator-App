@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+
+
+}
+
+.btnstyle{
+  @apply bg-stone-700 rounded p-3
+  hover:bg-stone-600
+}
+ 
+
+.foptcolbtn{
+  @apply bg-yellow-600 rounded p-3
+  hover:bg-yellow-300 font-semibold
+
+}
+
+
+.fopteqlcolbtn{
+  @apply bg-green-700 rounded p-3
+  hover:bg-green-500 font-semibold
+ 
+}
